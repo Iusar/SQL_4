@@ -1,7 +1,7 @@
 import sqlalchemy
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
 
-db = 'postgresql://iusar:bVSFSuX6@localhost:5432/musicstore'
+db = 
 
 engine = sqlalchemy.create_engine(db)
 connection = engine.connect()
